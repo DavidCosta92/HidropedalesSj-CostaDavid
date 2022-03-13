@@ -49,7 +49,6 @@ main{
 	width: 96%
 	height:auto;
 }
-
 .videos h4{
 		margin-top: 0px;
 		padding: 5px;
@@ -195,6 +194,14 @@ h4{
 
 /* INDEX ESP */
 
+@keyframes fotoSliderHeroAnimation{
+	0%{background-image: url(../img/hero1.png)}
+	20%{background-image: url(../img/hero2.jpg)}
+	40%{background-image: url(../img/hero3.jpg)}
+	60%{background-image: url(../img/hero4.jpg)}
+	80%{background-image: url(../img/hero5.jpg)}
+	100%{background-image: url(../img/hero6.jpg)}
+} 
 #fotoSlider{
 	z-index: -10;
 	height: 80vh;
@@ -245,6 +252,7 @@ h4{
 }
 .ofertasDestacadas:hover{
 	box-shadow: 7px 10px 37px rgba(251,105,0,0.9);
+	transform: scale(1.15);
 }
 .botones{	
 	width: 100%;
@@ -310,6 +318,7 @@ h4{
 #galeriaMultimedia div img:hover{
 	padding: -10px;
 	box-shadow: 4px 8px 6px rgba(0,0,0,0.8);
+	transform: scale(1.05);
 }	
 
 /* INFO ESPECIFICOS */ 
@@ -697,7 +706,14 @@ h4{
 	margin-top: -25px;
 	transition: all 1s;
 }
-
+.logosRedes:hover{
+	transform: scale(1.9);
+	cursor: pointer;
+} 
+#logoHidrosFooter:hover{
+	transform: scale(1.25);
+	cursor: pointer;
+}
 
 
 
@@ -994,6 +1010,10 @@ h4{
 	}
 
 
+
+
+}
+
 /**** termina 800 px ******/
 
 @media (min-width: 1024px){
@@ -1014,7 +1034,7 @@ h4{
 		width: 40%;
 		height: auto;
 	}
-
+	
 	#layoutEmpresarial main h4{
 		font-size: 1.1rem;
 	}
@@ -1026,4 +1046,3 @@ h4{
 	}
 
  }
-}
