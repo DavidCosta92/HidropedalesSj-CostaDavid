@@ -47,8 +47,8 @@ main{
 	padding:6px;
 	margin: 5% auto;
 	width: 96%
-	height:auto;
 }
+
 .videos h4{
 		margin-top: 0px;
 		padding: 5px;
@@ -193,7 +193,7 @@ h4{
 
 
 /* INDEX ESP */
-
+/*
 @keyframes fotoSliderHeroAnimation{
 	0%{background-image: url(../img/hero1.png)}
 	20%{background-image: url(../img/hero2.jpg)}
@@ -201,7 +201,7 @@ h4{
 	60%{background-image: url(../img/hero4.jpg)}
 	80%{background-image: url(../img/hero5.jpg)}
 	100%{background-image: url(../img/hero6.jpg)}
-} 
+} */
 #fotoSlider{
 	z-index: -10;
 	height: 80vh;
@@ -214,14 +214,6 @@ h4{
 .carrouselIndex{
 	height: 30vh;
 }
-.carrouselIndex img{
-
-	
-}
-
-
-
-
 .ofertasIndex{
 	grid-area: ofertas;
 	text-align: center;
