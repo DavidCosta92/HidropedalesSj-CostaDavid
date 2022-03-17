@@ -223,6 +223,8 @@ h4{
 	margin: 5% 2%;
 
 }
+
+
 .ofertasDestacadas{
 	display: flex;
 	flex-direction: column;
@@ -232,6 +234,7 @@ h4{
 	padding:2px;
 	background-color: rgba(255,255,255,0.5);
 }
+
 
 .fotoActividades{
 	width: 99%;
@@ -379,10 +382,12 @@ h4{
 	margin: auto;
 	margin-top: 15px;
 	margin-bottom: 10px;
-	width: 95%;
 	border-color: #FB6900;
-	border-collapse: collapse;
 	text-align: center;
+	width: 80%;
+}
+#tablaPrecios thead{
+	background-color: rgba(251, 105, 0, 0.7);
 }
 #notaPrecios legend{
 	font-size: 0.8rem;
