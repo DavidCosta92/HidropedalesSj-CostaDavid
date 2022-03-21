@@ -27,6 +27,19 @@ header{
 main{
 	 padding: 12px;
 }
+p:first-letter{
+	font-size: 1.5em;
+	color: #FB6900;
+	padding: 2px;
+	text-transform: uppercase;
+}
+h6::first-letter{
+	font-size: 1.5em;
+	color: #FB6900;
+	padding: 2px;
+	text-transform: uppercase;
+}
+
 /* GRID */
 
 #layoutIndex{
@@ -294,6 +307,9 @@ h4{
     padding: 6px;   
 }
 
+#botonActual{
+	background-color: rgb(251,105,0) !important;
+}
 /* GALERIA MULTIMEDIA */
 
 #galeriaMultimedia{
