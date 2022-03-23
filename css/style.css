@@ -264,10 +264,7 @@ h4{
 	text-align: center;
 	padding: 10px;
 }
-.ofertasDestacadas:hover{
-	box-shadow: 7px 10px 37px rgba(251,105,0,0.9);
-	transform: scale(1.15);
-}
+
 .botones{	
 	width: 100%;
 	display: flex;
@@ -379,11 +376,7 @@ h4{
 	border-radius: 15px;
 	min-width: 3 0vw;
 }
-#galeriaMultimedia div img:hover{
-	padding: -10px;
-	box-shadow: 4px 8px 6px rgba(0,0,0,0.8);
-	transform: scale(1.05);
-}	
+
 
 /* INFO ESPECIFICOS */ 
 #layoutInfo{
@@ -1013,10 +1006,15 @@ h4{
 	.carrouselIndex{
 	height: 75vh;
 	}
-
-
-
-
+	#galeriaMultimedia div img:hover{
+		padding: -10px;
+		box-shadow: 4px 8px 6px rgba(0,0,0,0.8);
+		transform: scale(1.05);
+	}	
+	.ofertasDestacadas:hover{
+		box-shadow: 7px 10px 37px rgba(251,105,0,0.9);
+		transform: scale(1.15);
+	}
 }
 
 /**** termina 800 px ******/
