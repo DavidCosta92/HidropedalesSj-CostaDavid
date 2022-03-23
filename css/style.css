@@ -253,7 +253,6 @@ h4{
 	width: 99%;
 	border-radius: 8px 8px 0px 0px;
 	margin: auto;
-	
 }
 
 .ofertasDestacadas figcaption{
@@ -275,6 +274,10 @@ h4{
 	flex-direction: row;
 	justify-content: space-around;
 	margin-bottom: 6px;
+}
+.botones a{
+	text-decoration: none;
+	color: black;
 }
 .verMasBtn{
 	background-color: rgba(106,103,103,0.4);
@@ -299,13 +302,57 @@ h4{
     padding: 5px;
     font-size: 0.8em;
     text-decoration: none;
+	
 }
+
 .comprarBtn:hover{
 	background-color: #4CAF50;
     color: white;
     font-size: 0.95em;
     padding: 6px;   
 }
+
+/* detalles actividad */
+#detalleActividad img{
+	border-radius: 8px;
+	margin: auto;
+}
+#detalleActividad h4{
+	font-size: 1.3rem;
+	
+}
+#detalleActividad h6{
+	font-size: 1.1rem;
+	padding-bottom: 3%;
+}
+#detalleActividad p{
+	font-size: 0.9rem;
+}
+#detalleActividad p:first-letter{
+	font-size: 1em;
+	color: black;
+	padding: 0;
+}
+#detalleActividad h6::first-letter{
+	font-size: 1.2em;
+	color: black;
+	padding: 0;
+}
+#detalleActividad .comprarBtn{
+ 	width: 60%;
+	 margin-top: 4%;
+     font-size: 1em;
+    text-decoration: none;
+}
+#detalleActividad .volverBtn{
+	width: 20%;
+	background-color: grey;
+}
+
+
+
+
+
 
 
 /* GALERIA MULTIMEDIA */
@@ -552,6 +599,7 @@ h4{
 	max-width: 75px;
 	min-width: 45px;
 }
+
 
 
 /* NOSOTROS ESPECIFICOS */ 
