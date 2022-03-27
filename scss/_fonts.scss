@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Rowdies&display=swap');
+
+
+$fontMain: 'Roboto', sans-serif;
+$fontTitle: 'Akaya Telivigala', cursive;
+
+p:first-letter{
+	font-size: 1.5em;
+	color: $textColorOrange90;
+	padding: 2px;
+	text-transform: uppercase;
+}
+h6::first-letter{
+	font-size: 1.5em;
+	color:  $textColorOrange90;
+	padding: 2px;
+	text-transform: uppercase;
+}
+.h1{
+	font-family: 'Akaya Telivigala', cursive;
+	color: $textColorOrange90;
+	text-align: center;
+	font-size: 1rem;
+}
+.h1Nav{
+	font-family: 'Akaya Telivigala', cursive;
+	color: $textColorOrange90;
+	text-align: center;
+	font-size: 1rem;	
+	padding-top: 15px;
+
+}
+h4{
+	font-size: 0.9rem;
+	font-weight: 600;
+	padding-top: 0.5rem;
+}
+.h6Center{
+	padding-top: 15px;
+	text-align: center;
+}
+.h6Right{
+	text-align: right;
+	padding-top: 15px;
+}
+.h6Left{
+	text-align: left;
+	padding-top: 15px;
+}

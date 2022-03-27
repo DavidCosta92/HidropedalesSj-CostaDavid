@@ -1,0 +1,110 @@
+
+#layoutInfo{
+	display: grid;
+	grid-template-columns:1fr;
+	grid-template-rows: auto auto auto auto auto auto auto auto;
+	grid-template-areas: "nav" "comoLlegar" "mapa"
+	 "precios" "clima" "faqs" "form" "footer";
+	grid-gap: 10px;
+}
+#mainInfo{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+#comoLlegar{
+	grid-area: comoLlegar;
+	width: 100%;
+}
+#textoIconos{
+	font-size: 1rem;
+	font-weight: 300;
+}
+#iconosPosicion{
+	position: relative;
+	margin: 10px;
+	top:10px;
+	height: 30px;
+	width:  30px;
+}
+#mapa{
+	grid-area: mapa;
+	width: 100%;
+}
+#mapaItem{
+	border-color: $BtnOrange;
+	margin-top: 12px;
+	padding: 8px;
+	height: 85%;
+	overflow-y: hidden;
+	max-width: 450px;
+	margin: auto;
+}
+#precios{
+	grid-area: precios;
+	width: 100%;
+}
+
+#tablaPrecios{
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	border-color: $BtnOrange;
+	text-align: center;
+	width: 80%;
+	thead{
+		background-color: $mainColor;
+	}
+}
+#notaPrecios{
+	width: 80%;
+	margin: auto;
+	margin-bottom: 20px;
+	legend{
+		font-size: 0.8rem;
+	}
+}
+
+
+#clima{
+	grid-area: clima;
+	width: 100%;
+	border-radius: 15px;
+}
+#seccionClima{
+	width: 85%;
+	max-width: 450px;
+	padding-bottom: 15px;
+	
+	margin: 15px auto;
+}
+
+
+#faqs{
+	grid-area: faqs;
+	width: 100%;	
+	max-width: 1000px;
+	margin: auto;
+}
+
+
+#pregResp{
+	margin-top: 15px;
+	line-height: 20px;
+	background-color: $mainColor50;
+	border-radius: 30px;
+	padding: 10px;
+}
+.preguntas{
+	font-weight: 500;
+	font-size: 1em;
+	padding-bottom:  0.7em;
+}
+.respuestas{
+	font-weight: 300;
+	font-size: 1em;
+	text-align: right;
+	padding-bottom:  1.2em;
+}

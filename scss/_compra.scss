@@ -1,0 +1,38 @@
+
+#detalleActividad {
+	img{
+		border-radius: 8px;
+		margin: auto;
+	}
+	h4{
+		font-size: 1.3rem;		
+	}
+	h6{
+		font-size: 1.1rem;
+		padding-bottom: 3%;
+	}
+	p{
+		font-size: 0.9rem;
+	}
+	p:first-letter{
+		font-size: 1em;
+		color: black;
+		padding: 0;
+	}
+	h6::first-letter{
+		font-size: 1.2em;
+		color: black;
+		padding: 0;
+	}
+	.comprarBtn{
+		width: 60%;
+		margin-top: 4%;
+		font-size: 1em;
+	   text-decoration: none;
+   }
+   .volverBtn{
+	width: 20%;
+	background-color: $BtnGrey;
+	}
+}
+

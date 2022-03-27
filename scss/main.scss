@@ -1,0 +1,287 @@
+@import "_commons";
+@import "_fonts";
+
+// secciones
+@import "_navBar";
+@import "_footer";
+@import "_videos";
+@import "_formulario";
+@import "_galeriaMultimedia";
+
+// paginas
+@import "_index";
+@import "_actividades";
+@import "_compra";
+@import "_empresarial";
+@import "_info";
+@import "_nosotros";
+
+body{
+	background-color: $backgroundColor;
+    header{
+        background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.0));
+        padding-bottom: 10px;
+        #botoneraIndex{
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.0));
+            padding-bottom: 10px;
+            margin-top: -4px;
+        }
+    }
+    main{
+        padding: 12px;
+   }
+
+}
+// media queries
+@media (min-width: 450px){
+	.videos{
+		width: 70%;
+		height: 40vh;
+	}
+	#layoutEmpresarial main h4{
+		font-size: 0.8rem;
+	}
+	#layoutEmpresarial main h6{
+		font-size: 0.6rem;
+	}
+	.carrouselIndex{
+	height: 40vh;
+	}
+	
+
+}
+
+@media (min-width: 600px){
+	#logoHidrosFooter{
+		display: inline;
+		width:100%;
+	}
+	#h5Footer{
+		display: inline;
+	}
+	.ofertasDestacadas{
+		display: inline-flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 45%;
+		justify-content: space-around;
+		transition: all 1s;
+	}	
+	.h1Nav{
+		font-size: 1.3rem;	
+	}
+
+	.nav a{
+		font-weight: 550;
+		font-size: 1rem;
+	}
+	h4{
+		font-size:1rem;
+		margin-top: 25px;
+	}
+	.videos{
+		width: 60%;
+		height: auto;
+	}
+
+	#objetivo > div{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	}
+
+	#foto1{	
+		margin: 0;
+		width: 50vw;
+	}
+	#objetivo h6{
+		width: 30vw;
+	}
+
+
+	#queHacemos{
+	grid-area: queHacemos;
+	margin-top: 40px;
+	/* margin-bottom:200px;  */
+	}
+	#foto2{
+		width: 65%;
+		margin-top: 30px;
+	}
+	#foto3{
+		display: block;
+		width: 75%;
+		margin-top: 40px;
+		border-radius: 10px;
+	}
+	#queHacemos h6{
+		margin-top: 60px;
+		text-align: center;
+	}
+	#layoutEmpresarial main h4{
+		font-size: 0.9rem;
+	}
+	#layoutEmpresarial main h6{
+		font-size: 0.7rem;
+	}
+	#empresas{
+		display: inline-flex;
+		flex-direction: column;
+
+	}
+	#logosEmpresas{
+		justify-content: center;
+	}
+
+
+	#logosEmpresas .logoSecundario{
+	display: flex;
+	}
+
+
+	.integrante{
+		flex-wrap: nowrap;
+	}
+	#layoutNosotros h4{
+		font-size: 1.2rem;
+	}
+	#layoutNosotros h6{
+		font-size: 0.9rem;
+	}
+	.h6Titulo{
+		padding-top: 20px;
+		text-align: left;
+		font-size: 1.3rem;
+
+	}
+	.integrante .h6Equipo{
+		padding-left: 15px;
+		font-size: 0.8rem;
+	}
+	.wide{
+		grid-column: span 2;
+	}
+	.tall{
+		grid-row: span 2;
+	}
+	.small{
+		grid-column: span 1;
+	}
+	.carrouselIndex{
+	height: 65vh;
+	}
+}
+/**** termina 600px ******/
+
+
+
+@media (min-width: 800px){
+	
+	#qrFooter{
+		display: inline;
+		width:100%;
+	}
+	.ofertasDestacadas{
+		width: 28%;
+	}	
+	.h1Nav{
+		font-size: 1.4rem;	
+	}
+
+	.nav a{
+		font-weight: 550;
+		font-size: 1.1rem;
+	}
+	h4{
+		font-size:1rem;
+	}
+	.videos{		
+		width: 50%;
+		height: auto;
+	}
+	#mainInfo{
+		grid-template-columns:50vw 50vw;
+		grid-template-rows: auto auto auto auto;
+		grid-template-areas: "comoLlegar mapa"
+	 	"precios clima" "faqs faqs" "form form";
+		grid-gap: 10px;
+		display: inline-grid;
+	}
+
+	#layoutEmpresarial main h4{
+		font-size: 1rem;
+
+	}
+	#layoutEmpresarial main h6{
+		margin-top: 50px;
+		font-size: 0.8rem;
+	}
+	#logosEmpresas .logoTerciario{
+	display: flex;
+	}
+
+	#layoutNosotros h4{
+		font-size: 1.3rem;
+	}
+	#layoutNosotros h6{
+		font-size: 1rem;
+	}
+	.h6Titulo{
+		padding-top: 25px;
+		text-align: left;
+		font-size: 1.2rem;
+	}
+	.integrante .h6Equipo{
+		padding-left: 20px;
+		font-size: 0.9rem;
+	}
+	.carrouselIndex{
+	height: 75vh;
+	}
+	#galeriaMultimedia div img:hover{
+		padding: -10px;
+		box-shadow: 4px 8px 6px rgba(0,0,0,0.8);
+		transform: scale(1.05);
+	}	
+	.ofertasDestacadas:hover{
+		box-shadow: 7px 10px 37px rgba(251,105,0,0.9);
+		transform: scale(1.15);
+	}
+}
+
+/**** termina 800 px ******/
+
+@media (min-width: 1024px){
+	.ofertasDestacadas{
+		width: 20%;
+	}	
+	.h1Nav{
+		font-size: 1.75rem;	
+	}
+	.nav a{
+		font-weight: 550;
+		font-size: 1.3rem;
+	}
+	h4{
+		font-size:1.1rem;
+	}
+	.videos{
+		width: 40%;
+		height: auto;
+	}
+	
+	#layoutEmpresarial main h4{
+		font-size: 1.1rem;
+	}
+	#layoutEmpresarial main h6{
+		font-size: 0.9rem;
+	}
+	#logosEmpresas{
+		align-items: center;
+	}
+	.carrouselIndex{
+	height: 80vh;
+	}
+}

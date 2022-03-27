@@ -1,0 +1,53 @@
+
+.footer{
+	grid-area: footer;
+	box-shadow: 7px 5px 37px rgba(0,0,0,0.8);
+	height: auto;
+	border-radius: 100px;
+	background: linear-gradient(rgba(251,105,0,0.5), rgb(251,105,0));
+}
+
+#logosFooter{
+	margin: 1% 3%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+.logosRedes{
+	width:50%;
+	max-height: 14vh;
+	padding: 1px;
+	transition: all 1s;
+	&:hover{
+		transform: scale(1.9);
+		cursor: pointer;
+	} 
+}
+#qrFooter{
+	display: none;
+	max-height: 15vh;
+	margin-top: -25px;
+}
+#logoHidrosFooter{
+	display: none;
+	padding: 0px;
+	margin-left: -1px;
+	max-height: 15vh;
+	margin-top: -25px;
+	transition: all 1s;
+	&:hover{
+		transform: scale(1.25);
+		cursor: pointer;
+	}
+}
+#h5Footer{
+	font-size: 0.8rem;
+	font-style: italic;
+	margin-left: 40%;
+	display: none;
+	border-width: 1px;
+	border-radius: 45%;
+	position: relative;
+	top: 5px;
+}

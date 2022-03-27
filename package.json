@@ -1,0 +1,25 @@
+{
+  "name": "hidropedalessanjuan",
+  "version": "1.0.0",
+  "description": "Primer repo, pagina Hidropedales San Juan\r Esta es mi primer pagina, diseñada para el Emprendimiento de Hidropedales San Juan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
+		"watch-css": "nodemon -e scss -x \"npm     run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidCosta92/HidropedalesSj-CostaDavid.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidCosta92/HidropedalesSj-CostaDavid/issues"
+  },
+  "homepage": "https://github.com/DavidCosta92/HidropedalesSj-CostaDavid#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
