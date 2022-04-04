@@ -588,18 +588,6 @@ h4 {
   margin-bottom: 20px;
   max-width: 600px; }
 
-body {
-  background-color: rgba(220, 248, 253, 0.5); }
-  body header {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
-    padding-bottom: 10px; }
-    body header #botoneraIndex {
-      background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
-      padding-bottom: 10px;
-      margin-top: -4px; }
-  body main {
-    padding: 12px; }
-
 @media (min-width: 450px) {
   .videos {
     width: 70%;
@@ -767,3 +755,15 @@ body {
     align-items: center; }
   .carrouselIndex {
     height: 80vh; } }
+
+body {
+  background-color: rgba(220, 248, 253, 0.5); }
+  body header {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+    padding-bottom: 10px; }
+    body header #botoneraIndex {
+      background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+      padding-bottom: 10px;
+      margin-top: -4px; }
+  body main {
+    padding: 12px; }
