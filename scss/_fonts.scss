@@ -7,13 +7,13 @@ $fontMain: 'Roboto', sans-serif;
 $fontTitle: 'Akaya Telivigala', cursive;
 
 p:first-letter{
-	font-size: 1.5em;
+	@include textos (1.5em, 2px);
 	color: $textColorOrange90;
 	padding: 2px;
 	text-transform: uppercase;
 }
 h6::first-letter{
-	font-size: 1.5em;
+	@include textos (1.5em, 2px);
 	color:  $textColorOrange90;
 	padding: 2px;
 	text-transform: uppercase;
@@ -28,14 +28,12 @@ h6::first-letter{
 	font-family: 'Akaya Telivigala', cursive;
 	color: $textColorOrange90;
 	text-align: center;
-	font-size: 1rem;	
-	padding-top: 15px;
+	@include textos (1rem, 15px);
 
 }
 h4{
-	font-size: 0.9rem;
+	@include textos (0.9rem, 0.5rem);
 	font-weight: 600;
-	padding-top: 0.5rem;
 }
 .h6Center{
 	padding-top: 15px;

@@ -25,9 +25,8 @@
 	box-shadow: 2px 2px 6px rgba(0,0,0,0.8);
 }
 .h6Titulo{
-	padding-top: 15px;
+	@include textos(0.9rem,15px);
 	text-align: left;
-	font-size: 0.9rem;
 }
 .integrante{
 	display: flex;

@@ -57,7 +57,7 @@
 	padding: 10px;
 	width: 30%;
 	color: white;
-	background-color:$BtnOrange;
+	background-color: map-get($map:$colorBoton, $key:'orange');
 	cursor: pointer;	
 	&:hover{
 		font-size: 1em;

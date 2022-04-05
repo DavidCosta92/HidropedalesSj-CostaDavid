@@ -10,8 +10,19 @@ $mainColor50: rgba(251,105,0,0.5);
 $backgroundColor:rgba(220,248,253,0.5);
 $textColorOrange:#FB6900;
 $textColorOrange90:rgba(251,105,0,0.9);
-$BtnGrey:rgba(106,103,103,0.4);
-$BtnOrange:#FB6900;
-$btnGreen:#4CAF50;
-$keyColor:red; // para que usaria esto??
 
+// mapa de colores para botones
+$colorBoton: (
+    'grey':rgba(106,103,103,0.4),
+    'green':#4CAF50,
+    'orange':#FB6900,);
+
+@mixin fotos ($width, $margin, $border-radius) {
+	width: $width;
+	margin: $margin;
+	border-radius: $border-radius;
+}
+@mixin textos ($size, $paddingTop) {
+    font-size: $size;
+    padding-top: $paddingTop;
+}

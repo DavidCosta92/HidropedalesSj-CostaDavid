@@ -16,21 +16,23 @@
     }
 }
 
+
+
 .verMasBtn{
-	background-color: $BtnGrey;
+    background-color:map-get($map:$colorBoton, $key:'grey');
 	border-radius: 10px;
 	border: 1px;
  	width: 30%;
     padding: 5px;
     font-size: 0.8em;
     &:hover{
-        background-color: $BtnOrange;
+        background-color: map-get($map:$colorBoton, $key:'orange');
 
         font-size: 0.95em;
     }
 }
 .comprarBtn{
-	background-color: $btnGreen; 
+	background-color: map-get($map:$colorBoton, $key:'green');
 	border-radius: 10px;
 	border: 1px;
  	width: 40%;
