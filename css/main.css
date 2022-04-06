@@ -7,14 +7,7 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif; }
 
-p:first-letter {
-  font-size: 1.5em;
-  padding-top: 2px;
-  color: rgba(251, 105, 0, 0.9);
-  padding: 2px;
-  text-transform: uppercase; }
-
-h6::first-letter {
+h6:first-letter {
   font-size: 1.5em;
   padding-top: 2px;
   color: rgba(251, 105, 0, 0.9);
@@ -381,6 +374,9 @@ h4 {
   #objetivo h6 {
     text-align: center;
     padding-top: 10px; }
+  #objetivo #h6Objetivo {
+    color: rgba(251, 105, 0, 0.9);
+    font-size: 0.7em; }
 
 #foto1 {
   width: 90%;
@@ -579,10 +575,13 @@ h4 {
   .videos {
     width: 70%;
     height: 40vh; }
-  #layoutEmpresarial main h4 {
+  #layoutEmpresarial h4 {
     font-size: 0.8rem; }
-  #layoutEmpresarial main h6 {
+  #layoutEmpresarial h6 {
     font-size: 0.6rem; }
+  #layoutEmpresarial #h6Objetivo {
+    color: rgba(251, 105, 0, 0.9);
+    font-size: 0.8em; }
   .carrouselIndex {
     height: 40vh; } }
 
@@ -621,6 +620,9 @@ h4 {
     width: 50vw; }
   #objetivo h6 {
     width: 30vw; }
+  #h6Objetivo {
+    color: rgba(251, 105, 0, 0.9);
+    font-size: 0.9em; }
   #queHacemos {
     grid-area: queHacemos;
     margin-top: 40px;
@@ -695,8 +697,11 @@ h4 {
   #layoutEmpresarial main h4 {
     font-size: 1rem; }
   #layoutEmpresarial main h6 {
-    margin-top: 50px;
+    margin-top: 10px;
     font-size: 0.8rem; }
+  #h6Objetivo {
+    color: rgba(251, 105, 0, 0.9);
+    font-size: 1em; }
   #logosEmpresas .logoTerciario {
     display: flex; }
   #layoutNosotros h4 {

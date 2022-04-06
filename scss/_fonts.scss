@@ -6,13 +6,7 @@
 $fontMain: 'Roboto', sans-serif;
 $fontTitle: 'Akaya Telivigala', cursive;
 
-p:first-letter{
-	@include textos (1.5em, 2px);
-	color: $textColorOrange90;
-	padding: 2px;
-	text-transform: uppercase;
-}
-h6::first-letter{
+h6:first-letter{
 	@include textos (1.5em, 2px);
 	color:  $textColorOrange90;
 	padding: 2px;

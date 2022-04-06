@@ -3,17 +3,21 @@
 		width: 70%;
 		height: 40vh;
 	}
-	#layoutEmpresarial main h4{
-		font-size: 0.8rem;
-	}
-	#layoutEmpresarial main h6{
-		font-size: 0.6rem;
+	#layoutEmpresarial {
+		h4{
+			font-size: 0.8rem;
+		}
+		h6{
+			font-size: 0.6rem;
+		}
+		#h6Objetivo{
+			color: $textColorOrange90;
+			font-size: 0.8em;
+		}
 	}
 	.carrouselIndex{
 	height: 40vh;
 	}
-	
-
 }
 
 @media (min-width: 600px){
@@ -63,6 +67,10 @@
 	}
 	#objetivo h6{
 		width: 30vw;
+	}
+	#h6Objetivo{
+		color: $textColorOrange90;
+		font-size: 0.9em;
 	}
 
 
@@ -178,8 +186,12 @@
 
 	}
 	#layoutEmpresarial main h6{
-		margin-top: 50px;
+		margin-top: 10px;
 		font-size: 0.8rem;
+	}
+	#h6Objetivo{
+		color: $textColorOrange90;
+		font-size: 1em;
 	}
 	#logosEmpresas .logoTerciario{
 	display: flex;
