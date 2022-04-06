@@ -1,46 +1,21 @@
+.navbarCentrada{
+	justify-content: center;
+	font-size: 1.1rem;
+	a{
+		color: $textColorOrange90;
+		font-weight: 400;
+		&:hover{
+			color: $textColorOrange90;
+			font-size: 1.2rem;
+		}
+		&:focus{
+			color: $textColorOrange90;
+			font-size: 1.2rem;
+		}
+	}
 
-.nav{
-	grid-area: nav;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	width: 100%;
-    ul{
-        list-style: none;
-         font-size: 0.1rem;
-         padding: 0.5rem;
-         li{
-            display: inline-block;
-            overflow-y: hidden;
-            ul{
-                display: none;
-                position: absolute;
-                li{
-                    display: block;
-               }
-           }
-           &:hover ul {
-            display: block;
-            background: linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,0.2));
-        }
-        }
-    }
 }
 
-.nav a{
-	color: $mainColor;
-	font-weight: 550;
-	text-decoration: none;
-    font-size: 0.7rem;
-    padding: 4px;
-    &:hover{
-        color: rgba(251,105,0,9);
-     }
-}
- #itemNavActual{
- 	color: $mainColor;	
-	text-decoration: underline;
- }
 
 .logos{
 	display: inline;
