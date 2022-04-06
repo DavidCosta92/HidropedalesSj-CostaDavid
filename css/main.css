@@ -9,12 +9,14 @@
 
 p:first-letter {
   font-size: 1.5em;
+  padding-top: 2px;
   color: rgba(251, 105, 0, 0.9);
   padding: 2px;
   text-transform: uppercase; }
 
 h6::first-letter {
   font-size: 1.5em;
+  padding-top: 2px;
   color: rgba(251, 105, 0, 0.9);
   padding: 2px;
   text-transform: uppercase; }
@@ -34,8 +36,8 @@ h6::first-letter {
 
 h4 {
   font-size: 0.9rem;
-  font-weight: 600;
-  padding-top: 0.5rem; }
+  padding-top: 0.5rem;
+  font-weight: 600; }
 
 .h6Center {
   padding-top: 15px;
@@ -92,27 +94,20 @@ h4 {
   z-index: 10;
   opacity: 0.6; }
 
-#logoHidropedal {
+#logoHidropedal, #logoHidropedalViews {
   display: inline;
   position: absolute;
   top: 1%;
   opacity: 0.6;
   z-index: 10;
   left: 2%;
-  width: 50%;
-  max-width: 150px; }
+  max-width: 150px;
+  width: 50%; }
 
 #logoHidropedalViews {
-  display: inline;
-  position: absolute;
-  top: 1%;
-  opacity: 0.6;
-  z-index: 10;
-  left: 2%;
-  width: 20%;
-  max-width: 150px; }
+  width: 20%; }
 
-#logoUsuario {
+#logoUsuario, #logoUsuarioViews {
   display: inline;
   position: absolute;
   text-align: right;
@@ -124,17 +119,9 @@ h4 {
   max-width: 150px; }
 
 #logoUsuarioViews {
-  display: inline;
-  position: absolute;
-  text-align: right;
-  top: 1%;
-  opacity: 0.6;
-  z-index: 10;
-  right: 2%;
-  width: 20%;
-  max-width: 150px; }
+  width: 20%; }
 
-#logoHidropedal:hover, #logoUsuario:hover,
+#logoHidropedal:hover, #logoHidropedalViews:hover, #logoUsuario:hover, #logoUsuarioViews:hover,
 #logoUsuarioViews:hover, #logoHidropedalViews:hover {
   opacity: 1; }
 
@@ -407,18 +394,18 @@ h4 {
 
 #foto2 {
   width: 45%;
-  margin-top: 30px;
   margin: 5px;
   border-radius: 10px;
+  margin-top: 30px;
   position: relative;
   float: right;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8); }
 
 #foto3 {
   width: 55%;
-  margin-top: 10px;
   margin: 5px;
   border-radius: 10px;
+  margin-top: 10px;
   position: relative;
   float: left;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
@@ -480,7 +467,7 @@ h4 {
   width: 100%; }
 
 #mapaItem {
-  border-color: #FB6900;
+  border-color: #4CAF50;
   margin-top: 12px;
   padding: 8px;
   height: 85%;
@@ -496,7 +483,7 @@ h4 {
   margin: auto;
   margin-top: 15px;
   margin-bottom: 10px;
-  border-color: #FB6900;
+  border-color: #4CAF50;
   text-align: center;
   width: 80%; }
   #tablaPrecios thead {
@@ -567,9 +554,9 @@ h4 {
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8); }
 
 .h6Titulo {
+  font-size: 0.9rem;
   padding-top: 15px;
-  text-align: left;
-  font-size: 0.9rem; }
+  text-align: left; }
 
 .integrante {
   display: flex;
@@ -667,9 +654,9 @@ h4 {
   #layoutNosotros h6 {
     font-size: 0.9rem; }
   .h6Titulo {
+    font-size: 1.3rem;
     padding-top: 20px;
-    text-align: left;
-    font-size: 1.3rem; }
+    text-align: left; }
   .integrante .h6Equipo {
     padding-left: 15px;
     font-size: 0.8rem; }
@@ -717,9 +704,9 @@ h4 {
   #layoutNosotros h6 {
     font-size: 1rem; }
   .h6Titulo {
+    font-size: 1.2rem;
     padding-top: 25px;
-    text-align: left;
-    font-size: 1.2rem; }
+    text-align: left; }
   .integrante .h6Equipo {
     padding-left: 20px;
     font-size: 0.9rem; }
