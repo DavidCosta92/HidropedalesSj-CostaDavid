@@ -48,14 +48,16 @@ h4 {
   justify-content: center;
   font-size: 1.1rem; }
   .navbarCentrada a {
-    color: rgba(251, 105, 0, 0.9);
-    font-weight: 400; }
+    font-weight: 500; }
     .navbarCentrada a:hover {
-      color: rgba(251, 105, 0, 0.9);
       font-size: 1.2rem; }
     .navbarCentrada a:focus {
-      color: rgba(251, 105, 0, 0.9);
       font-size: 1.2rem; }
+  .navbarCentrada .dropdown-item {
+    color: rgba(251, 105, 0, 0.7); }
+    .navbarCentrada .dropdown-item:hover {
+      font-size: 1.2rem;
+      color: #FB6900; }
 
 .logos {
   display: inline;
@@ -283,6 +285,17 @@ h4 {
     text-decoration: none;
     color: black; }
 
+.button {
+  background-color: rgba(106, 103, 103, 0.4); }
+  .button a {
+    color: rgba(251, 105, 0, 0.7);
+    font-size: 0.9em;
+    padding: 0;
+    padding-left: 3px; }
+    .button a:hover {
+      font-size: 1em;
+      color: #FB6900; }
+
 .verMasBtn {
   background-color: rgba(106, 103, 103, 0.4);
   border-radius: 10px;
@@ -305,6 +318,9 @@ h4 {
   .comprarBtn:hover {
     font-size: 0.95em;
     padding: 6px; }
+
+.ofertasIndex .page-link {
+  color: rgba(251, 105, 0, 0.7); }
 
 #detalleActividad img {
   border-radius: 8px;

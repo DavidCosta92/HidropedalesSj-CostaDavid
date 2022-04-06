@@ -15,8 +15,19 @@
         color: black;
     }
 }
-
-
+.button{
+    background-color: map-get($map:$colorBoton, $key:'grey');
+    a{
+        color: $textColorOrange70;
+        font-size: 0.9em;
+        padding: 0;
+        padding-left: 3px;
+        &:hover{
+            font-size: 1em;
+            color: $textColorOrange;
+        }
+    }
+}
 
 .verMasBtn{
     background-color:map-get($map:$colorBoton, $key:'grey');
@@ -43,4 +54,9 @@
         font-size: 0.95em;
         padding: 6px;   
     }	
+}
+.ofertasIndex{
+    .page-link{
+        color: $textColorOrange70;
+    }
 }

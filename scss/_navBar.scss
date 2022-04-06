@@ -2,20 +2,22 @@
 	justify-content: center;
 	font-size: 1.1rem;
 	a{
-		color: $textColorOrange90;
-		font-weight: 400;
+		font-weight: 500;
 		&:hover{
-			color: $textColorOrange90;
-			font-size: 1.2rem;
+			font-size: 1.2rem;		
 		}
 		&:focus{
-			color: $textColorOrange90;
 			font-size: 1.2rem;
 		}
 	}
-
+	.dropdown-item{
+		color: $textColorOrange70;
+		&:hover{
+			font-size: 1.2rem;
+			color: $textColorOrange;	
+		}
+	}
 }
-
 
 .logos{
 	display: inline;
