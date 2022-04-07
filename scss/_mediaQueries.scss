@@ -16,7 +16,7 @@
 		}
 	}
 	.carrouselIndex{
-	height: 40vh;
+		height: auto;
 	}
 }
 
@@ -164,7 +164,7 @@
 		grid-column: span 1;
 	}
 	.carrouselIndex{
-	height: 65vh;
+		height: auto;
 	}
 }
 /**** termina 600px ******/
@@ -249,7 +249,7 @@
 		text-align: right;
 	}
 	.carrouselIndex{
-	height: 75vh;
+		height: auto;
 	}
 	#galeriaMultimedia div img:hover{
 		padding: -10px;
@@ -298,6 +298,6 @@
 		align-items: center;
 	}
 	.carrouselIndex{
-	height: 80vh;
+		height: auto;
 	}
 }
