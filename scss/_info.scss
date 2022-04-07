@@ -5,7 +5,7 @@
 	grid-template-rows: auto auto auto auto auto auto auto auto;
 	grid-template-areas: "nav" "comoLlegar" "mapa"
 	 "precios" "clima" "faqs" "form" "footer";
-	grid-gap: 10px;
+	
 }
 #mainInfo{
 	display: flex;
@@ -78,10 +78,7 @@
 	width: 85%;
 	max-width: 450px;
 	padding-bottom: 15px;
-	margin: 15px auto;
 }
-
-
 #faqs{
 	grid-area: faqs;
 	width: 100%;	
