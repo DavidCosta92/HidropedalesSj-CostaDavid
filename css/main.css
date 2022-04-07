@@ -793,6 +793,9 @@ h4 {
   .carrouselIndex {
     height: auto; } }
 
+root {
+  scroll-behavior: smooth; }
+
 body {
   margin: 0;
   padding: 0;
