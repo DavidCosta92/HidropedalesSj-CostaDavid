@@ -77,7 +77,6 @@
 	#queHacemos{
 	grid-area: queHacemos;
 	margin-top: 40px;
-	/* margin-bottom:200px;  */
 	}
 	#foto2{
 		width: 65%;
@@ -89,10 +88,21 @@
 		margin-top: 40px;
 		border-radius: 10px;
 	}
-	#queHacemos h6{
-		margin-top: 60px;
-		text-align: center;
+	#queHacemos {
+		h6{
+			margin-top: 60px;
+			text-align: center;}
+		.h6queHacemos{
+			margin-top: 50px;
+		}
+		.h6queHacemos2{
+				margin-top: 60px;
+		}
+		.h6queHacemos3{
+			margin-top: 20px;
+		}
 	}
+
 	#layoutEmpresarial main h4{
 		font-size: 0.9rem;
 	}
@@ -202,6 +212,15 @@
 		margin-top: 10px;
 		font-size: 0.8rem;
 	}
+	#queHacemos{
+		.h6queHacemos{
+			margin-top: 150px;
+			margin-bottom: 70px;
+		}
+		.h6queHacemos2{
+				margin-top: 160px;
+		}
+	}
 	#h6Objetivo{
 		color: $textColorOrange90;
 		font-size: 1em;
@@ -269,6 +288,11 @@
 	}
 	#layoutEmpresarial main h6{
 		font-size: 0.9rem;
+	}
+	#queHacemos{
+		.h6queHacemos2{
+			margin-top: 25%;
+		}
 	}
 	#logosEmpresas{
 		align-items: center;

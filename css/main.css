@@ -381,6 +381,8 @@ h4 {
 #queHacemos {
   grid-area: queHacemos;
   margin-top: 20px; }
+  #queHacemos .h6queHacemos {
+    margin-top: 30px; }
 
 #foto2 {
   width: 45%;
@@ -545,7 +547,7 @@ h4 {
   width: 70%;
   margin: 15%;
   margin-top: 5%;
-  margin-bottom: 8%;
+  margin-bottom: 3%;
   border-radius: 10px;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8); }
 
@@ -645,8 +647,7 @@ h4 {
     font-size: 0.9em; }
   #queHacemos {
     grid-area: queHacemos;
-    margin-top: 40px;
-    /* margin-bottom:200px;  */ }
+    margin-top: 40px; }
   #foto2 {
     width: 65%;
     margin-top: 30px; }
@@ -658,6 +659,12 @@ h4 {
   #queHacemos h6 {
     margin-top: 60px;
     text-align: center; }
+  #queHacemos .h6queHacemos {
+    margin-top: 50px; }
+  #queHacemos .h6queHacemos2 {
+    margin-top: 60px; }
+  #queHacemos .h6queHacemos3 {
+    margin-top: 20px; }
   #layoutEmpresarial main h4 {
     font-size: 0.9rem; }
   #layoutEmpresarial main h6 {
@@ -727,6 +734,11 @@ h4 {
   #layoutEmpresarial main h6 {
     margin-top: 10px;
     font-size: 0.8rem; }
+  #queHacemos .h6queHacemos {
+    margin-top: 150px;
+    margin-bottom: 70px; }
+  #queHacemos .h6queHacemos2 {
+    margin-top: 160px; }
   #h6Objetivo {
     color: rgba(251, 105, 0, 0.9);
     font-size: 1em; }
@@ -775,6 +787,8 @@ h4 {
     font-size: 1.1rem; }
   #layoutEmpresarial main h6 {
     font-size: 0.9rem; }
+  #queHacemos .h6queHacemos2 {
+    margin-top: 25%; }
   #logosEmpresas {
     align-items: center; }
   .carrouselIndex {

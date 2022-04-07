@@ -25,6 +25,9 @@
 #queHacemos{
 	grid-area: queHacemos;
 	margin-top: 20px;
+	.h6queHacemos{
+		margin-top: 30px;
+	}
 }
 #foto2{
 	@include fotos(45%,5px,10px);
