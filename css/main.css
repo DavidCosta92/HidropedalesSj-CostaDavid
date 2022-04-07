@@ -494,6 +494,7 @@ h4 {
   border-radius: 15px; }
 
 #seccionClima {
+  box-sizing: border-box;
   width: 85%;
   max-width: 450px;
   padding-bottom: 15px;
@@ -804,4 +805,4 @@ body {
       padding-bottom: 10px;
       margin-top: -4px; }
   body main {
-    padding: 12px; }
+    margin: 2px; }
