@@ -117,6 +117,11 @@
 	.integrante{
 		flex-wrap: nowrap;
 	}
+	.fotoInvertida{
+		img{
+			order: 1;
+		}
+	}
 	#layoutNosotros h4{
 		font-size: 1.2rem;
 	}
@@ -126,10 +131,18 @@
 	.h6Titulo{
 		@include textos (1.3rem, 20px);
 		text-align: left;
+		padding-left: 25%;
+	}
+	.h6TituloInvertido{
+		padding-right: 25%;
+		text-align: right;
 	}
 	.integrante .h6Equipo{
-		padding-left: 15px;
+		padding: 20px;
 		font-size: 0.8rem;
+	}
+	.fotosEquipo{
+		width: 50%;
 	}
 	.wide{
 		grid-column: span 2;
@@ -206,10 +219,15 @@
 	.h6Titulo{
 		@include textos (1.2rem, 25px);
 		text-align: left;
+		padding-left: 20%;
 	}
 	.integrante .h6Equipo{
-		padding-left: 20px;
+		padding: 25px;
 		font-size: 0.9rem;
+	}
+	.h6TituloInvertido{
+		padding-right: 20%;
+		text-align: right;
 	}
 	.carrouselIndex{
 	height: 75vh;

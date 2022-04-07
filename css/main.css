@@ -45,7 +45,7 @@ h4 {
   padding-top: 15px; }
 
 .navbarCentrada {
-  justify-content: center;
+  justify-content: right;
   font-size: 1.1rem; }
   .navbarCentrada a {
     font-weight: 500; }
@@ -534,12 +534,18 @@ h4 {
 
 #equipo {
   grid-area: equipo; }
+  #equipo #contenedorDelEquipo {
+    padding-top: 8%; }
+    #equipo #contenedorDelEquipo h5 {
+      text-decoration: underline; }
+    #equipo #contenedorDelEquipo .h6Titulo {
+      color: rgba(251, 105, 0, 0.9); }
 
 #fotoEquipoDeTrabajo {
-  width: 80%;
-  margin: 10%;
+  width: 70%;
+  margin: 15%;
   margin-top: 5%;
-  margin-bottom: 2%;
+  margin-bottom: 8%;
   border-radius: 10px;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8); }
 
@@ -547,6 +553,17 @@ h4 {
   font-size: 0.9rem;
   padding-top: 15px;
   text-align: left; }
+
+#mision strong {
+  color: #FB6900; }
+
+#equipo strong {
+  color: rgba(251, 105, 0, 0.7);
+  font-size: 1rem; }
+
+#equipo .fraseEspecial {
+  color: #FB6900;
+  font-size: 1.1em; }
 
 .integrante {
   display: flex;
@@ -556,11 +573,20 @@ h4 {
   justify-content: center;
   align-items: center; }
   .integrante .h6Equipo {
-    padding-left: 10px; }
+    padding: 15px; }
+
+.lineaSeparadora {
+  background-color: rgba(251, 105, 0, 0.7);
+  width: 80%;
+  height: 1px;
+  border-radius: 50%;
+  margin-left: 10%;
+  margin-top: 3%;
+  margin-bottom: 6%; }
 
 .fotosEquipo {
   width: 70%;
-  border-radius: 5px;
+  border-radius: 50%;
   margin-top: 10px;
   margin-bottom: 20px;
   max-width: 600px; }
@@ -645,6 +671,8 @@ h4 {
     display: flex; }
   .integrante {
     flex-wrap: nowrap; }
+  .fotoInvertida img {
+    order: 1; }
   #layoutNosotros h4 {
     font-size: 1.2rem; }
   #layoutNosotros h6 {
@@ -652,10 +680,16 @@ h4 {
   .h6Titulo {
     font-size: 1.3rem;
     padding-top: 20px;
-    text-align: left; }
+    text-align: left;
+    padding-left: 25%; }
+  .h6TituloInvertido {
+    padding-right: 25%;
+    text-align: right; }
   .integrante .h6Equipo {
-    padding-left: 15px;
+    padding: 20px;
     font-size: 0.8rem; }
+  .fotosEquipo {
+    width: 50%; }
   .wide {
     grid-column: span 2; }
   .tall {
@@ -705,10 +739,14 @@ h4 {
   .h6Titulo {
     font-size: 1.2rem;
     padding-top: 25px;
-    text-align: left; }
+    text-align: left;
+    padding-left: 20%; }
   .integrante .h6Equipo {
-    padding-left: 20px;
+    padding: 25px;
     font-size: 0.9rem; }
+  .h6TituloInvertido {
+    padding-right: 20%;
+    text-align: right; }
   .carrouselIndex {
     height: 75vh; }
   #galeriaMultimedia div img:hover {
