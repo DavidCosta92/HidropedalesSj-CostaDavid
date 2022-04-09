@@ -592,10 +592,52 @@ h4 {
   margin-bottom: 20px;
   max-width: 600px; }
 
-#error404 main img {
-  height: 80vh;
-  position: relative;
-  margin-right: 0px; }
+#error404 main h1 {
+  padding-top: 10px;
+  color: #FB6900;
+  font-size: 2em;
+  text-align: center;
+  width: 40%; }
+
+#error404 main h2 {
+  padding: 10px;
+  padding-top: 15px;
+  color: rgba(251, 105, 0, 0.9);
+  font-size: 1.1em;
+  text-align: center;
+  width: 60%; }
+
+#error404 main h3 {
+  padding: 20px 0 10px 0;
+  font-size: 0.9em;
+  text-align: center;
+  line-height: 1.7em;
+  margin: 0; }
+
+#error404 main .verMasBtn {
+  background-color: rgba(251, 105, 0, 0.7);
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1em; }
+
+#error404 main #form {
+  margin-top: 0; }
+  #error404 main #form h4 {
+    margin: 0;
+    padding: 0; }
+  #error404 main #form input {
+    margin-bottom: 15px; }
+  #error404 main #form .botonEnvio {
+    margin-bottom: 5px; }
+
+#error404 main #gifError {
+  display: flex;
+  flex-wrap: wrap; }
+  #error404 main #gifError iframe {
+    width: 70%;
+    max-width: 400px;
+    margin: auto; }
 
 @media (min-width: 450px) {
   .videos {
@@ -708,7 +750,13 @@ h4 {
   .small {
     grid-column: span 1; }
   .carrouselIndex {
-    height: auto; } }
+    height: auto; }
+  #error404 main h1 {
+    padding-top: 20px;
+    font-size: 3em; }
+  #error404 main h2 {
+    padding-top: 20px;
+    font-size: 1.4em; } }
 
 /**** termina 600px ******/
 @media (min-width: 800px) {

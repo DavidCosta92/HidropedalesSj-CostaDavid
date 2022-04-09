@@ -17,7 +17,8 @@ $textColorOrange70:rgba(251,105,0,0.7);
 $colorBoton: (
     'grey':rgba(106,103,103,0.4),
     'green':#4CAF50,
-    'orange':#FB6900,);
+    'orange':#FB6900,
+    'orange70':rgba(251,105,0,0.7),);
 
 @mixin fotos ($width, $margin, $border-radius) {
 	width: $width;

@@ -1,10 +1,59 @@
 #error404{
     main{
-        img{
-            height: 80vh;
-            position: relative;
-            margin-right: 0px;
-            
+        h1{
+        padding-top: 10px;
+         color: $textColorOrange;
+         font-size: 2em;
+         text-align: center;
+         width: 40%;
         }
+        h2{
+            padding: 10px;
+            padding-top: 15px;
+            color: $textColorOrange90;
+            font-size: 1.1em;
+            text-align: center;
+            width: 60%;
+        }
+        h3{
+            padding: 20px 0 10px 0;
+            font-size: 0.9em;
+            text-align: center;
+            line-height: 1.7em;
+            margin:0;
+        }
+        .verMasBtn{
+            background-color: map-get($map:$colorBoton, $key:'orange70');
+            color: black;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1em;
+        }
+        #form{
+            margin-top: 0;
+            h4{
+                margin: 0;
+                padding: 0;
+            }
+            input{
+                margin-bottom: 15px;
+            }
+            .botonEnvio{
+                margin-bottom: 5px;
+            }
+        }
+        #gifError{
+            display: flex;
+            flex-wrap: wrap;
+            iframe{
+                width: 70%;
+                max-width: 400px;
+                margin: auto;
+            }
+        }
+        
+    }
+    .footer{
+        
     }
 }
