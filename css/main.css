@@ -270,6 +270,13 @@ h4 {
     text-align: center;
     padding: 10px; }
 
+#layoutIndex main {
+  padding: 5px; }
+  #layoutIndex main h4 {
+    padding: 5px; }
+  #layoutIndex main .filtrosDeActividades {
+    padding: 5px; }
+
 .fotoActividades {
   width: 99%;
   border-radius: 8px 8px 0px 0px;
@@ -362,6 +369,8 @@ h4 {
   grid-template-rows: auto auto auto auto auto auto;
   grid-template-areas: "nav" "objetivo" "queHacemos" "empresas" "form" "footer";
   grid-gap: 10px; }
+  #layoutEmpresarial main {
+    padding: 5px; }
 
 #objetivo {
   grid-area: objetivo; }
@@ -529,6 +538,8 @@ h4 {
   grid-template-areas: "nav" "mision" "equipo" "video" "footer";
   grid-gap: 10px;
   margin: 0px; }
+  #layoutNosotros main {
+    padding: 10px; }
 
 #mision {
   grid-area: mision; }
@@ -594,18 +605,17 @@ h4 {
 
 #error404 main h1 {
   padding-top: 10px;
+  padding-left: 10px;
   color: #FB6900;
   font-size: 2em;
-  text-align: center;
-  width: 40%; }
+  width: 35%;
+  text-align: center; }
 
 #error404 main h2 {
-  padding: 10px;
-  padding-top: 15px;
   color: rgba(251, 105, 0, 0.9);
   font-size: 1.1em;
   text-align: center;
-  width: 60%; }
+  width: 55%; }
 
 #error404 main h3 {
   padding: 20px 0 10px 0;
@@ -632,10 +642,16 @@ h4 {
     margin-bottom: 5px; }
 
 #error404 main #gifError {
+  padding-top: 15px;
+  padding-bottom: 20px;
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  justify-content: center; }
+  #error404 main #gifError #textoError404 {
+    display: inline-flex;
+    padding-bottom: 15px; }
   #error404 main #gifError iframe {
-    width: 70%;
+    width: 90%;
     max-width: 400px;
     margin: auto; }
 
@@ -651,7 +667,13 @@ h4 {
     color: rgba(251, 105, 0, 0.9);
     font-size: 0.8em; }
   .carrouselIndex {
-    height: auto; } }
+    height: auto; }
+  #error404 main #gifError #textoError404 h1 {
+    font-size: 3em;
+    padding: 0;
+    padding-bottom: 10px; }
+  #error404 main #gifError #textoError404 h2 {
+    font-size: 1.1em; } }
 
 @media (min-width: 600px) {
   #logoHidrosFooter {
@@ -751,12 +773,30 @@ h4 {
     grid-column: span 1; }
   .carrouselIndex {
     height: auto; }
-  #error404 main h1 {
-    padding-top: 20px;
-    font-size: 3em; }
-  #error404 main h2 {
-    padding-top: 20px;
-    font-size: 1.4em; } }
+  #error404 main #gifError {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: nowrap; }
+    #error404 main #gifError #textoError404 {
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+      justify-content: center;
+      align-items: center; }
+    #error404 main #gifError h1 {
+      font-size: 4em;
+      padding: 0;
+      padding-bottom: 10px;
+      width: 100%; }
+    #error404 main #gifError h2 {
+      font-size: 1.3em;
+      width: 80%; }
+  #error404 main iframe {
+    width: 55%;
+    max-width: 400px;
+    margin: 0;
+    padding-right: 10px; } }
 
 /**** termina 600px ******/
 @media (min-width: 800px) {
@@ -819,7 +859,21 @@ h4 {
     transform: scale(1.05); }
   .ofertasDestacadas:hover {
     box-shadow: 7px 10px 37px rgba(251, 105, 0, 0.9);
-    transform: scale(1.15); } }
+    transform: scale(1.15); }
+  #error404 main #gifError {
+    padding-top: 50px;
+    padding-bottom: 30px; }
+    #error404 main #gifError #textoError404 h1 {
+      font-size: 4.5em;
+      padding-bottom: 20px; }
+    #error404 main #gifError #textoError404 h2 {
+      font-size: 1.6em;
+      width: 95%; }
+    #error404 main #gifError iframe {
+      width: 55%;
+      max-width: 500px;
+      margin: 0;
+      padding-right: 10px; } }
 
 /**** termina 800 px ******/
 @media (min-width: 1024px) {
@@ -844,7 +898,21 @@ h4 {
   #logosEmpresas {
     align-items: center; }
   .carrouselIndex {
-    height: auto; } }
+    height: auto; }
+  #error404 main #gifError {
+    padding-top: 60px;
+    padding-bottom: 40px; }
+    #error404 main #gifError #textoError404 h1 {
+      font-size: 4.5em;
+      padding-bottom: 20px; }
+    #error404 main #gifError #textoError404 h2 {
+      font-size: 1.6em;
+      width: 95%; }
+    #error404 main #gifError iframe {
+      width: 55%;
+      max-width: 500px;
+      margin: 0;
+      padding-right: 10px; } }
 
 root {
   scroll-behavior: smooth; }

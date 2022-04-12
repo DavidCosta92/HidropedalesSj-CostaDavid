@@ -2,18 +2,17 @@
     main{
         h1{
         padding-top: 10px;
+        padding-left: 10px;
          color: $textColorOrange;
          font-size: 2em;
+         width: 35%;
          text-align: center;
-         width: 40%;
         }
         h2{
-            padding: 10px;
-            padding-top: 15px;
             color: $textColorOrange90;
             font-size: 1.1em;
             text-align: center;
-            width: 60%;
+            width: 55%;
         }
         h3{
             padding: 20px 0 10px 0;
@@ -43,17 +42,21 @@
             }
         }
         #gifError{
+            padding-top: 15px;
+            padding-bottom: 20px;
             display: flex;
             flex-wrap: wrap;
+            justify-content: center;
+            #textoError404{
+                display: inline-flex;
+                padding-bottom: 15px;
+            }
             iframe{
-                width: 70%;
+                width: 90%;
                 max-width: 400px;
                 margin: auto;
             }
         }
-        
-    }
-    .footer{
         
     }
 }

@@ -4,15 +4,13 @@
 	grid-template-columns:1fr;
 	grid-template-rows: auto auto auto auto auto auto auto auto;
 	grid-template-areas: "nav" "comoLlegar" "mapa"
-	 "precios" "clima" "faqs" "form" "footer";
-	
+	 "precios" "clima" "faqs" "form" "footer";	
 }
 #mainInfo{
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: center;
-
 }
 #comoLlegar{
 	grid-area: comoLlegar;

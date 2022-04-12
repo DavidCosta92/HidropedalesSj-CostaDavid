@@ -5,6 +5,9 @@
 	grid-template-areas: "nav" "objetivo" "queHacemos"
 						 "empresas" "form" "footer";
 	grid-gap: 10px;	
+	main{
+		padding: 5px;
+	}
 }
 
 #objetivo{
