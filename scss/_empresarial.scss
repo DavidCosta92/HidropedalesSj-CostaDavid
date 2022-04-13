@@ -61,6 +61,20 @@
 		max-width: 75px;
 		min-width: 45px;
 	}
+	#testimoniosEmpresas{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		padding-top: 50px;
+		.cartasTestimonios{
+			max-width: 400px;
+			.fotoTestimonio{
+				width: 100%;
+				margin: 0;
+			}
+		}
+
+	}
 }
 #logosEmpresas{
 	display: flex;

@@ -21,6 +21,7 @@
 	flex-direction: row;
 	justify-content: space-around;
 	margin-bottom: 6px;
+    height: 2em;
     a{
         text-decoration: none;
         color: black;
@@ -70,4 +71,13 @@
     .page-link{
         color: $textColorOrange70;
     }
+    .ofertasDestacadas{
+        figcaption{
+            font-weight: 700;
+            font-size: 1.1em;
+        }
+    }
+}
+.ofertasDestacadas{
+    min-height: 500px;
 }

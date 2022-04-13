@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Rowdies&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ultra&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -287,7 +288,8 @@ h4 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-bottom: 6px; }
+  margin-bottom: 6px;
+  height: 2em; }
   .botones a {
     text-decoration: none;
     color: black; }
@@ -328,6 +330,13 @@ h4 {
 
 .ofertasIndex .page-link {
   color: rgba(251, 105, 0, 0.7); }
+
+.ofertasIndex .ofertasDestacadas figcaption {
+  font-weight: 700;
+  font-size: 1.1em; }
+
+.ofertasDestacadas {
+  min-height: 500px; }
 
 #detalleActividad img {
   border-radius: 8px;
@@ -425,6 +434,16 @@ h4 {
     margin-right: 5%;
     max-width: 75px;
     min-width: 45px; }
+  #empresas #testimoniosEmpresas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 50px; }
+    #empresas #testimoniosEmpresas .cartasTestimonios {
+      max-width: 400px; }
+      #empresas #testimoniosEmpresas .cartasTestimonios .fotoTestimonio {
+        width: 100%;
+        margin: 0; }
 
 #logosEmpresas {
   display: flex;
@@ -604,6 +623,7 @@ h4 {
   max-width: 600px; }
 
 #error404 main h1 {
+  font-family: 'Ultra', serif;
   padding-top: 10px;
   padding-left: 10px;
   color: #FB6900;
@@ -804,7 +824,8 @@ h4 {
     display: inline;
     width: 100%; }
   .ofertasDestacadas {
-    width: 28%; }
+    width: 28%;
+    min-height: 525px; }
   .h1Nav {
     font-size: 1.4rem; }
   .nav a {
