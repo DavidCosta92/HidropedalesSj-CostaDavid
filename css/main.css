@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Rowdies&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ultra&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -440,10 +441,18 @@ h4 {
     justify-content: space-around;
     padding-top: 50px; }
     #empresas #testimoniosEmpresas .cartasTestimonios {
-      max-width: 400px; }
+      max-width: 400px;
+      border-color: rgba(251, 105, 0, 0.7); }
+      #empresas #testimoniosEmpresas .cartasTestimonios .firmaTestimonio {
+        text-align: right; }
       #empresas #testimoniosEmpresas .cartasTestimonios .fotoTestimonio {
         width: 100%;
-        margin: 0; }
+        margin: 0;
+        border-radius: 50%; }
+      #empresas #testimoniosEmpresas .cartasTestimonios .fraseTestimonio {
+        font-family: 'Indie Flower', cursive;
+        font-weight: 900;
+        font-size: 1.2em; }
 
 #logosEmpresas {
   display: flex;
