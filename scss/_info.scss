@@ -5,6 +5,7 @@
 	grid-template-rows: auto auto auto auto auto auto auto auto;
 	grid-template-areas: "nav" "comoLlegar" "mapa"
 	 "precios" "clima" "faqs" "form" "footer";	
+	 width: 97%;
 }
 #mainInfo{
 	display: flex;

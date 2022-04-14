@@ -428,7 +428,7 @@ h4 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  width: 98vw; }
+  width: 95vw; }
   #empresas img {
     margin-top: 30px;
     width: 10%;
@@ -467,7 +467,8 @@ h4 {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto auto auto auto auto auto auto;
-  grid-template-areas: "nav" "comoLlegar" "mapa" "precios" "clima" "faqs" "form" "footer"; }
+  grid-template-areas: "nav" "comoLlegar" "mapa" "precios" "clima" "faqs" "form" "footer";
+  width: 97%; }
 
 #mainInfo {
   display: flex;
